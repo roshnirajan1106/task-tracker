@@ -30,7 +30,7 @@ function App() {
   }
     //add task
      const addTask = async (task) => {
-       const res =  await fetch('https://shrouded-fortress-18770.herokuapp.com//tasks',{method :'POST',
+       const res =  await fetch('https://shrouded-fortress-18770.herokuapp.com/tasks',{method :'POST',
     headers :{
       'Content-type' :'application/json'
     },
